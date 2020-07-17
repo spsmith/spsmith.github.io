@@ -1,1 +1,11 @@
-theme: jekyll-theme-slate
+theme: minima
+
+title: Simon Smith
+
+description: A simple site for my portfolio and projects.
+
+author: Simon Smith
+
+baseurl: ""
+
+url: https://spsmith.github.io
