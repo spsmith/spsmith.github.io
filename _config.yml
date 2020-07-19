@@ -6,6 +6,12 @@ description: A simple site for my portfolio and projects.
 
 author: Simon Smith
 
+email: spsmith5@wisc.edu
+
+profile: Systems Programmer at the Virtual Environments group, Wisconsin Institute for Discovery.
+
 baseurl: ""
 
 url: https://spsmith.github.io
+
+github: https://github.com/spsmith
