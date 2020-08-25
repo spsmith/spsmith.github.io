@@ -2,4 +2,4 @@
 
 Repository for my personal portfolio website.
 
-[View the site here!](spsmith.github.io)
+[View the site here!](https://spsmith.github.io)
