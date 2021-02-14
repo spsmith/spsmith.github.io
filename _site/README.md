@@ -1,2 +1,5 @@
 # spsmith.github.io
-Website for my portfolio and other things.
+
+Repository for my personal portfolio website.
+
+[View the site here!](https://spsmith.github.io)

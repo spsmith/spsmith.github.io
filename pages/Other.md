@@ -13,4 +13,6 @@ As of right now, the package contains many scripts designed to streamline the Un
 
 # Ice Cube Virtual Reality Experience
 
+![Ice Cube in virtual reality]({{'images/ice_cube.png' | absolute_url}}) 
+
 I did some work porting the lab's existing [IceCube virtual reality experience](https://pvre.discovery.wisc.edu/) to the latest version of Unity, as well as submitting it to the Oculus Store as a free app. This involved some bug fixes and code updates, as well as adding menu functionality to meet store submission requirements. A version was also made for the Oculus Go and Oculus Quest standalone headsets.

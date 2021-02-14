@@ -75,8 +75,6 @@
 
 <p><img src="http://localhost:4000/images/waveform_script.png" alt="Audio Waveform script" /></p>
 
-<p>Designing tests for the Looking Glass display added an extra layer of complexity.</p>
-
 <h2 id="project-structure">Project Structure</h2>
 
 <p>The overall project is organized among several scenes. Each brain system lives in its own scene. Additionally, each display platform has its own scene as well. These scenes can be loaded in combination, meaning that the same lesson can be used with any display platform without requiring any editing of the lesson scene itself. Custom scripts have been written so that when scenes are loaded and unloaded, the correct connections are made between the necessary Unity objects.</p>
@@ -99,22 +97,24 @@
 
 <h3 id="tools-used">Tools Used</h3>
 
-<p><em>Unity (various versions, from 2017.1 through 2019.3)</em></p>
+<p><em>Unity (various versions, from 2017.1 through 2020.2)</em></p>
 
-<p><em>Programming languages used: C#, Python</em></p>
-<ul>
-  <li>All of the Unity scripts used in this project were written in C#.</li>
-  <li>Python was used to write various scripts to assist in the research process. This included the script for running the Virtual Brain experiment itself as well as scripts for organizing data from test subjects and automatically grading tests during the experiment.</li>
-</ul>
-
-<p><em>Blender</em></p>
+<p><em>Blender 2.8</em></p>
 <ul>
   <li>Many of the 3D models used in the Virtual Brain project originated from MRI scan data. After converting this data into a 3D model format, further cleanup was performed in Blender. This included smoothing out various artifacts in the model by hand, texturing some models that needed color variation across their surface, and reducing geometry on models to optimize rendering speed in virtual reality.</li>
+  <li>Several simple models, such as the yellow stations, were modeled in Blender as well.</li>
+  <li>Some models, such as the brain fibers, were constructed via script. Based on a spline path, fibers of various sizes and complexity can be generated.</li>
 </ul>
 
 <p><em>Photoshop</em></p>
 <ul>
   <li>Photoshop was used for the creation of any 2D assets needed for the project, such as the UI.</li>
+</ul>
+
+<p><em>Programming languages used: C#, Python</em></p>
+<ul>
+  <li>All of the Unity scripts used in this project were written in C#.</li>
+  <li>Python was used to write various scripts to assist in the research process. This included the script for running the Virtual Brain experiment itself, as well as scripts for organizing data from test subjects and automatically grading tests during the experiment.</li>
 </ul>
 
   </div>

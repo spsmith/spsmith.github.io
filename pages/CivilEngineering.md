@@ -16,12 +16,14 @@ Building models are provided by the Engineering team in SketchUp format, and the
 
 Various information portals are also located throughout the building models. These can display informative text, pictures, or videos.
 
+![Column deformation example]({{'images/column_deformation.png' | absolute_url}})
+
+Future modules are in development, such as this interactive model of column deformation under stress.
+
 ### Tools Used
 
-*Unity (2019.3)*
+*Unity 2020.2*  
+*Blender 2.8*  
+*Photoshop*
 
 *Programming languages used: C#*
-
-*Blender*
-
-*Photoshop*

@@ -28,7 +28,7 @@ This project produced the following publications:
 
 ### Tools Used
 
-*CloudCompare*
+*[CloudCompare](https://www.danielgm.net/cc/)*
 - CloudCompare is an open source program designed for the analysis and editing of point cloud datasets.
 
 *Programming languages used: C++, R*
