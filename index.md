@@ -6,9 +6,9 @@ description: A website for my portfolio and projects.
 
 <img src="images\headshot_crop_3_medium.png" alt="Simon Smith" width="300"/>
 
-My name is Simon Smith, Systems Programmer for the Virtual Environments Group, located in the Wisconsin Institute for Discovery. I am the lead developer on several ongoing research projects at the lab, which you can learn more about below. I graduated from UW-Madison with a bachelor's degree in Computer Science along with a certificate in Digital Studies in December 2015.
+My name is **Simon Smith**, Systems Programmer for the Virtual Environments Group, located in the Wisconsin Institute for Discovery. I am the lead developer on several ongoing research projects at the lab, which you can learn more about below. I graduated from the University of Wisconsin-Madison with a bachelor's degree in Computer Science along with a certificate in Digital Studies in December 2015.
 
-I am an experienced Unity developer for desktop and virtual reality platforms. My main programming languages are C# and Python; I also have experience with C++, C, R, Lua, and others. My work at the lab has has also involved LiDAR scanning, running focus groups, and many other activities as needed for our research.
+I am an experienced Unity developer for desktop and virtual reality platforms. My main programming languages are C# and Python; I also have experience with C++, C, R, Lua, and others. My work at the lab has has also involved 3D modeling, digital asset creation, LiDAR scanning, running focus groups, and many other activities as needed for our research.
 
 [View my CV here.]({{ site.resume }})
 
