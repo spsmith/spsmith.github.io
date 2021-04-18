@@ -8,9 +8,11 @@ description: UW Virtual Brain Project
 
 The **UW Virtual Brain Project** is an ongoing research project designed to test the effectiveness of virtual reality-based learning. It is developed in Unity and runs on desktop platforms as well as the Oculus Rift, Quest, and Go. I am the lead developer on this project and have assisted in the project's design since it's inception.
 
-The project consists of a number of lessons, each of which guides the user through a single sensory system within the brain. Short videos of the Visual, Auditory, and Somatosensory systems are available below. The full experience of each system takes approximately five minutes to complete.
+The project consists of a number of lessons, each of which guides the user through a single sensory system within the brain. Short videos of the Visual, Auditory, and Somatosensory systems are available below. The full experience of each system takes approximately five minutes to complete. You can see a demo of one of the lessons in the video below:
 
-For more information about the UW Virtual Brain Project, visit its website at <https://schlosslab.discovery.wisc.edu/projects/#Brain>.
+<iframe src="https://player.vimeo.com/video/336153928?color=b90014&title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+*For more information about the UW Virtual Brain Project, visit its website at <https://schlosslab.discovery.wisc.edu/projects/#Brain>.*
 
 ## Platforms
 
@@ -83,11 +85,11 @@ The State, Command, and Observer patterns are used frequently across the project
 
 ### Videos
 
-**Visual System (VR)**
+**Visual System demo (VR)**
 <iframe src="https://player.vimeo.com/video/335913527?color=b90014&title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-**Auditory System (VR)**
+**Auditory System demo (VR)**
 <iframe src="https://player.vimeo.com/video/336153928?color=b90014&title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-**Somatosensory System (Desktop)**
+**Somatosensory System full walkthrough (Desktop)**
 <iframe src="https://player.vimeo.com/video/534610324?color=b90014&title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
