@@ -11,9 +11,7 @@ With the introduction of Unity's Package system, it became possible to easily sh
 
 As of right now, the package contains many scripts designed to streamline the Unity workflow. Various design patterns have been implemented such as the state machine and command patterns. Generic data structures have also been created, to serve as baselines for other scripts custom to each project. A system that supports file input/output for various filetypes using Scriptable Objects makes it easy for other Unity scripts to interact with any file in the project. An input system using ScriptableObjects has also been created, enabling easy drag and drop input setup for multiple platforms. Scripts can be written to accept input from a generic button type, and the specific button for desktop, VR, or other platforms can be chosen in the editor.
 
-Documentation for this repository (available on the repository's [wiki](https://github.com/widVE/UnityScripts/wiki)) is currently a work in progress.
-
-[Check out the repository on GitHub!](https://github.com/widVE/UnityScripts)
+Check out the contents of this package on the [wiki](https://github.com/widVE/UnityScripts/wiki)!
 
 # Ice Cube Virtual Reality Experience
 
