@@ -38,3 +38,7 @@ This two-year NIJ-funded project focused on the use of 3D capture technology for
 ![Unity Scripts repository]({{'images/unity_scripts.png' | absolute_url}})
 
 Some of the other projects I've been involved in at the lab. [Read more...](pages/Other.html)
+
+## [Publications](pages/Publications.html)
+
+A summary of my publications is available [here](pages/Publications.html).
