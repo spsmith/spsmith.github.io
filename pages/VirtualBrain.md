@@ -6,11 +6,14 @@ description: UW Virtual Brain Project
 
 ![Virtual Brain image]({{'images/brain_screenshot.png' | absolute_url}}) 
 
-The **UW Virtual Brain Project** is an ongoing research project designed to test the effectiveness of virtual reality-based learning. It is developed in Unity and runs on desktop platforms as well as the Oculus Rift, Quest, and Go. I am the lead developer on this project and have assisted in the project's design since it's inception.
+The **UW Virtual Brain Project** is an ongoing research project designed to test the effectiveness of virtual reality-based learning. It was developed in Unity and runs on desktop platforms as well as the Oculus Rift, Quest, and Go. I was the lead developer on this project and assisted in the project's design since it's inception.
 
 The project consists of a number of lessons, each of which guides the user through a single sensory system within the brain. Short videos of the Visual, Auditory, and Somatosensory systems are available below. The full experience of each system takes approximately five minutes to complete. You can see a demo of one of the lessons in the video below:
 
 <iframe src="https://player.vimeo.com/video/336153928?color=b90014&title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+My work on the Virtual Brain Project is described in the following publication:
+- [The UW Virtual Brain Project: An immersive approach to teaching functional neuroanatomy](https://schlosslab.discovery.wisc.edu/wp-content/uploads/2021/08/Schloss_etAl._VirtualBrain.pdf) *(Translational Issues in Psychological Science, Volume 7, Issue 3, September 2021)*
 
 *For more information about the UW Virtual Brain Project, visit its website at <https://schlosslab.discovery.wisc.edu/projects/#Brain>.*
 
