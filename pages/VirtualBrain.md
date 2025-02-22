@@ -4,7 +4,7 @@ title: UW Virtual Brain Project
 description: UW Virtual Brain Project
 ---
 
-![Virtual Brain image]({{'images/brain_screenshot.png' | absolute_url}}) 
+![Virtual Brain image]({{'images/WID-VE/VirtualBrain/brain_screenshot.png' | absolute_url}}) 
 
 The **UW Virtual Brain Project** is an ongoing research project designed to test the effectiveness of virtual reality-based learning. It was developed in Unity and runs on desktop platforms as well as the Oculus Rift, Quest, and Go. I was the lead developer on this project and assisted in the project's design since it's inception.
 
@@ -23,29 +23,29 @@ The Virtual Brain is designed to run on both Oculus headsets and traditional des
 
 For the second research experiment, the [Looking Glass autostereoscopic display](https://lookingglassfactory.com/) was added as a supported platform. This display was used in conjunction with the Oculus and PC experiences. The paper tests used in the first experiment were replaced by a virtual reality testing environment displayed in the Looking Glass, with controls accessed on an accompanying touchscreen display. A simplified view of the brain was displayed on the Looking Glass, and users could interact with it using their hands via a [Leap Motion](https://www.ultraleap.com/) hand tracking system.
 
-![Looking Glass and monitor]({{'images/lkg_and_monitor.jpg' | absolute_url}})  
+![Looking Glass and monitor]({{'images/WID-VE/VirtualBrain/lkg_and_monitor.jpg' | absolute_url}})  
 *Virtual Brain setup, featuring touchscreen monitor and Looking Glass holographic display*
 
 ## Development
 
 The Virtual Brain project is developed in Unity. Each lesson consists of a Unity scene including the necessary brain anatomy, interactive objects, and path layout. After the team writes the script for the lesson, work begins in Unity on laying out all the necessary pieces. A path is laid out for the user to follow, traveling through all the relevant brain regions for the lesson. Stations are placed along this path at various points. At each station, the user will stop and hear a voiceover explaining that region of the brain. At some stations, more complex visual effects can occur as well.
 
-![Auditory System scene]({{'images/auditory_scene.png' | absolute_url}})  
+![Auditory System scene]({{'images/WID-VE/VirtualBrain/auditory_scene.png' | absolute_url}})  
 *Overview of the Auditory System lesson*
 
 Each station uses a timeline system. This allows easy adjustment of the voice clips for each segment. Interactive effects, animations, and closed captions for each station are laid out on this same timeline.
 
-![Station timeline]({{'images/station_timeline.png' | absolute_url}})  
+![Station timeline]({{'WID-VE/VirtualBrain/station_timeline.png' | absolute_url}})  
 *Example of a timeline used for a single station*
 
 When complex effects are required, I have written several custom scripts to create them in Unity. Each script is written to be easily editable within the Unity editor itself. This allows members of the team to tweak the experience quickly and easily without having to dive into the code themselves. These scripts also allow for quick testing in the editor, without having to run through the whole lesson in a virtual reality headset.
 
-![Audio Waveform script]({{'images/waveform_script.png' | absolute_url}})  
+![Audio Waveform script]({{'images/WID-VE/VirtualBrain/waveform_script.png' | absolute_url}})  
 *Script example, used for the interactive waveforms in the Auditory System*
 
 Several custom scripts allow the creation of brain anatomy within the Unity engine. This allows team members with no 3D modeling experience to create accurate representations of various pieces of the brain for which no MRI data is available. As an example, most brain fibers within the project were created and colored via script.
 
-![Brain fiber example]({{'images/brain_fibers.jpg' | absolute_url}})  
+![Brain fiber example]({{'images/WID-VE/VirtualBrain/brain_fibers.jpg' | absolute_url}})  
 *Custom model of brain fibers, connecting to MRI model of brain surface structures*
 
 ## Project Structure
@@ -54,17 +54,17 @@ The overall project is organized across several scenes. Each lesson is contained
 
 There is also a master scene containing a main menu. This menu allows for the adjustment of settings and the loading of individual lessons. This allows all lessons to be contained in a single build. 
 
-![Scene structure]({{'images/scenes.png' | absolute_url}})  
+![Scene structure]({{'images/WID-VE/VirtualBrain/scenes.png' | absolute_url}})  
 *Example of some of the scenes used*
 
 The scenes within the Virtual Brain make heavy use of Unity's Prefab system. The overall brain anatomy is contained in several nested prefabs. This allows the brain anatomy to remain consistent between scenes, while each individual scene contains only the specific brain structures it needs. Additonally, any edits made to the brain models or layout within the prefab will be propagated to the various scenes automatically.
 
-![Brain prefab structure]({{'images/brain_prefab_structure.png' | absolute_url}})  
+![Brain prefab structure]({{'images/WID-VE/VirtualBrain/brain_prefab_structure.png' | absolute_url}})  
 *Example of scene structure*
 
 Unity's Scriptable Object system is used for configuration files within the project. As an example, the settings for transitions between solid and transparent materials are contained within scriptable objects, one per shader, so the same settings can be used across many objects in the scene.
 
-![Shader Properties objects]({{'images/shader_properties.png' | absolute_url}})  
+![Shader Properties objects]({{'images/WID-VE/VirtualBrain/shader_properties.png' | absolute_url}})  
 
 Version control support is achieved through use of the prefab, scene, and scriptable object systems. Since many parts of the project exist as their own prefab, scene, or asset files, merge conflicts are rare. Before implementing this structure, it was much more difficult to collaborate on this project across multiple team members.
 
