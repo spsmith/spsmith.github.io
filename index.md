@@ -4,7 +4,7 @@ title: About Me
 description: A website for my portfolio and projects.
 ---
 
-<img src="images\headshot_crop_3_medium.png" alt="Simon Smith" width="300"/>
+<img src="images\personal\headshot_crop_3_medium.png" alt="Simon Smith" width="300"/>
 
 My name is **Simon Smith**, currently a Software Engineer at **Microsoft**. I've been working on the [IVAS augmented reality system](https://news.microsoft.com/transform/u-s-army-to-use-hololens-technology-in-high-tech-headsets-for-soldiers/) since August 2021.
 
